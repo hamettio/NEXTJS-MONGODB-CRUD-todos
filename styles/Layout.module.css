@@ -1,0 +1,26 @@
+/* Nav Area */
+.navbar {
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+    height: 80px;
+    text-align: right;
+  }
+  .nav {
+    height: 100%;
+    display: inline-block;
+  }
+  .nav a {
+    margin: 0 20px;
+    font-size: 120%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
